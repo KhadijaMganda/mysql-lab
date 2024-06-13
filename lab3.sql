@@ -66,7 +66,6 @@ INSERT INTO employee (first_name, last_name, email, hire_date, KRA_PIN) VALUES
 
 -- CLAUSES
 
-
 SELECT * FROM employee WHERE hire_date = '2017-01-01';
 
 
@@ -81,6 +80,7 @@ SELECT * FROM employees WHERE hire_date > '2020-01-01';
 
 -- Select employees with a salary greater than 60000
 SELECT * FROM salary WHERE salary > 60000;
+
 
 -- Select employees hired between January 1, 2019, and December 31, 2020
 SELECT * FROM employee WHERE hire_date BETWEEN '2019-01-01' AND '2020-12-31';
